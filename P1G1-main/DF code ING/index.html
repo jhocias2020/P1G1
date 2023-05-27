@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="code.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Programación 1</title>
+</head>
+
+<body>
+
+    <h1>CALCULADORA ESTÁNDAR</h1>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input id="resultado"
+                type="text" placeholder="0" >
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="factorial()">
+                    factorial
+                </button>
+            </td>
+            <td>
+                <button onclick="potencia()">
+                    potencia
+                </button>
+            </td>
+            <td>
+                <button onclick="borrar()">
+                    Borrar
+                </button>
+            </td>
+            <td>
+                <button onclick="dividir()">
+                    dividir
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="numero(7)">
+                    7
+                </button>
+            </td>
+            <td>
+                <button onclick="numero(8)">
+                    8
+                </button>
+            </td>
+            <td>
+                <button onclick="numero(9)">
+                    9
+                </button>
+            </td>
+            <td>
+                <button onclick="multiplicar()">
+                    multiplicar
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="numero(4)">
+                    4
+                </button>
+            </td>
+            <td>
+                <button onclick="numero(5)">
+                    5
+                </button>
+            </td>
+            <td>
+                <button onclick="numero(6)">
+                    6
+                </button>
+            </td>
+            <td>
+                <button onclick="restar()">
+                    restar
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="numero(1)">
+                    1
+                </button>
+            </td>
+            <td>
+                <button onclick="numero(2)">
+                    2
+                </button>
+            </td>
+            <td>
+                <button onclick="numero(3)">
+                    3
+                </button>
+            </td>
+            <td>
+                <button onclick="sumar()">
+                    sumar
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="masMenos()">
+                    +/-
+                </button>
+            </td>
+            <td>
+                <button onclick="numero(0)">
+                    0
+                </button>
+            </td>
+            <td>
+                <button onclick="mod()">
+                    mod
+                </button>
+            </td>
+            <td>
+                <button onclick="igual()">
+                    igual
+                </button>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+    <h1>Ing. Jhocias Josue Cespedes</h1>
+
+    <h2>1.- Determinar el valor del factorial de un número N</h2>
+    <button onclick="factorialN()">Factorial</button>
+
+
+    <h2>2.- Dado A y B determinar cual es el mayor</h2>
+    <button onclick="mayorAyB()">Mayor A y B</button>
+
+    <h2>3.- Dado A y B obtener el DIV</h2>
+    <button onclick="obtenerDiv()">Obtener el DIV</button>
+
+    <h2>4.- Dado A y B obtener el MOD</h2>
+    <button onclick="obtenerMod()">Obtener el MOD</button>
+
+    <h2>5.- Retornar la cantidad de digitos de N</h2>
+    <button onclick="obtenerCantidadDigN()">
+        Obtener cantidad dig N
+    </button>
+
+    <h2>6.- Mostrar los digitos que tiene un número N</h2>
+    <button onclick="mostrarDigN()">
+        Mostrar dig N
+    </button>
+
+    <h2>7.- Mostrar si existe el dig 3 un número N</h2>
+    <button onclick="existeDig3enN()">
+        Existe el dig 3 un número N
+    </button>
+
+    <h2>8.- Calcular el area y perimetro de un Trapecio</h2>
+    <button onclick="calcularTrapecio()">
+        Calcular el area y perimetro de un Trapecio
+    </button>
+
+    <h2>9.- Determinar si N es par o impar</h2>
+    <button onclick="determinarNesParImpar()">
+        Determinar si N es par o impar
+    </button>
+
+    <h2>10.- IF Normal</h2>
+    <button onclick="ifNormal()">
+        IF Normal
+    </button>
+
+    <h2>11.- IF Abreviado</h2>
+    <button onclick="ifAbreviado()">
+        IF Abreviado
+    </button>
+
+    <h2>12.- Retornar la cantidad de digitos de N (usando FOR)</h2>
+    <button onclick="obtenerCantidadDigN_FOR()">
+        Obtener cantidad dig N (usando FOR)
+    </button>
+
+    <h1>Practico Segundo Parcial</h1>
+
+    <h2>1. Realizar el diagrama de flujo para mostrar todos los digitos impares de un número
+        ingresado por el usuario</h2>
+    <button onclick="mostrarDigitosImpares()">
+        Mostrar dig Impares
+    </button>
+
+    <h2>3. Desarrolle un diagrama de flujo que realice la sumatoria de los números enteros
+        comprendidos entre el 1 y el 10</h2>
+    <button onclick="mostrarSuma1_10()">
+        Mostrar Suma 1 a 10
+    </button>
+
+    <h2>5. Desarrolle un diagrama de flujo que permita determinar el área y volumen de un
+        cilindro dado su radio (R) y altura (H)</h2>
+    <button onclick="calcularAreaVolumenDeCilindro()">
+        calcular area y volumen de un cilindro
+    </button>
+
+    <h2>7.- Desarrolle un diagrama de flujo que permita leer
+        un número y muestre si el número es positivo o
+        negativo, en caso del número 0, mostrar que es
+        un número “neutro”</h2>
+    <button onclick="mostrarPositivoNegativoNeutro()">
+        mostrar si positivo, negativo o neutro
+    </button>
+
+    <h2>9.- Desarrollar un diagrama de flujo donde
+        se ingresen dos números y te muestre cual
+        es el número menor</h2>
+    <button onclick="mostrarMenorDosNumero()">
+        mostrar el menor de dos numeros
+    </button>
+
+    <h2>10. Determinar si N es múltiplo de M</h2>
+    <button onclick="NmultiploDeM()">
+        N Múltiplo de M
+    </button>
+
+    <h2>11. Sumar los dig multiplos de 3 de un nro N</h2>
+    <button onclick="sumaDigMultiplos3deN()">
+        Sumar los dig multiplos de 3 de un nro N
+    </button>
+
+    <h2>12. Sumar nros entre A y B</h2>
+    <button onclick="sumarNrosEntreAyB()">
+        Sumar nros entre A y B
+    </button>
+
+    <h2>13.- Calcular N promedio de notas </h2>
+    <button onclick="promedioNdeNotas()">
+        Calcular N promedio de notas
+    </button>
+
+
+    <h2>14.- Ejemplo de FUNCION con return</h2>
+    <button onclick=
+    </button>
+
+
+
+
+
+    
+    <h2>21. contar la cantidad de vocales que tiene una palabra</h2>
+    <button onclick="contarvocales()">
+        contar la cantidad de vocales que tiene una palabra 
+    </button>
+     
+    <h2>22. contar la cantidad de palabras de una cadena </h2>
+    <button onclick="contarPàlabras()">
+        contar la cantidad de palabras de una cadena
+    </button> 
+
+    <br><br><br><br><br><br>
+</body>
+
+</html>

@@ -45,19 +45,3 @@ function menorAyB() {
         }
     }
 }
-
-function obtenerDiv() {
-    var A = parseInt(prompt("Ingrese A", 10))
-    var B = parseInt(prompt("Ingrese B", 7))
-    var resultado=0
-    resultado=parseInt(A/B)
-    alert(resultado)
-    
-function mostarDigN() {
-    var N = preseInt(prompt("Ingrese N, 9478324))
-    var dig = 0
-    while (N 1= 0 {
-        
-
-
-
