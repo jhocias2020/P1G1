@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Mi primera página web</title>
+</head>
+
+<body>
+
+<h2>Universidad Privada Cumbre</h2>
+<h1>Pablo Ignacio Camacho Gutierrez</h1>
+<button onclick="MyPrimerAlgoritmo()">Juan es mayor de edad?</button>
+<button onclick="MySegundoAlgoritmo()">Juan es adulto mayor?</button>
+
+<script>
+function MyPrimerAlgoritmo(){
+    var edad;
+    edad = prompt("Ingrese su edad:", 18);
+    if (edad >= 18){
+        alert("Juan es mayor de edad.");
+    }
+    else{
+        alert("Juan es menor de edad.");
+    }
+}
+
+function MySegundoAlgoritmo(){
+    var edad;
+    edad = prompt("Ingrese su edad:", 60);
+    if (edad >= 60){
+        alert("Juan es de la tercera edad.");
+    }
+    else{
+        alert("Juan NO es de la tercera edad.");
+    }
+}
+</script>
+
+</body>
+</html>

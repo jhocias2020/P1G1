@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Mi primera página web</title>
+</head>
+
+<body>
+<h1>Avance 3</h1>
+<h2>Universidad Privada Cumbre</h2>
+<h1>MyNombre</h1>
+
+<button onclick="AlgoritmoUno()">Es N mayor a 7?</button>
+<button onclick="AlgoritmoDos()">A y B, cuál es menor?</button>
+<button onclick="AlgoritmoTres()">N dentro del rango 7 y 15</button>
+
+<script>
+//Código de programación - INICIO
+
+//Ejercicio: Cómo saber si un número es mayor que 7.
+function AlgoritmoUno() {
+    var N = prompt("Ingrese N:", 45);
+    if (N == 7){
+        alert(N + " es IGUAL que 7");
+    }
+    else {
+        if (N > 7){
+            alert(N + " es MAYOR que 7");
+        }
+        else{
+            alert(N + " es MENOR que 7")
+        }
+    }
+}
+
+//Ejercicio: Dado dos números A y B, retornar el MENOR
+function AlgoritmoDos() {
+    var A = prompt("Ingrese A:", 8);
+    var B = prompt("Ingrese B:", 5);
+    if (A > B){
+        alert(B + " es menor");
+    }
+    else {
+        alert(A + " es menor");
+    }
+}
+
+//Ejercicio: Dado un número N, retornar si se
+//           encuentra DENTRO del rango de 7 y 15
+function AlgoritmoTres(){
+    var N = prompt("Ingrese N:", 9);
+    var A = 7;
+    var B = 15;
+    if ((N > A) && (N < B)) {
+        alert(N + " está DENTRO del rango");
+    }
+    else {
+        alert(N + " está FUERA del rango");
+    }
+}
+
+//Código de programación - FIN
+</script>
+</body>
+</html>

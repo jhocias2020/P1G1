@@ -1,0 +1,41 @@
+table {
+    border: rosybrown 5px solid;
+    width: 100%;
+    text-align: center;
+}
+
+td, th {
+    border: #ffffff 3px solid;
+    padding: 5px;
+}
+
+td {
+    width: 30%;
+}
+
+tr {
+    width: 50%;
+}
+
+button {
+    width: 100%;
+    height: 80px;
+    background-color: #ddd8dc;
+    font-size: x-large;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: orange
+}
+
+button:hover {
+    background-color: #bcbdc0;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    height: 80px;
+    font-size: 70px;
+    text-align: right;
+    text-transform: uppercase;
+}
