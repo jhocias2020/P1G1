@@ -37,10 +37,10 @@
         this.ead = valor
     }
 
-    //5.- LOS METODOS DE LA CLASE, 0 ....
+    //5.- LOS METODOS DE LA CLASE, 0,,,,,,,,
     ContarVocales(){
-        var cadena = this.GetNombre()
-        var longitud = cadena.length
+        return this,GetCarnet()
+        +
         var i = 0
         var contar = 0
         while (longitudCad > i) {
@@ -59,7 +59,21 @@
         return contar
     }
     
-}    
+}
+
+
+/*
+
+Realizar la creacion de la clase "ESTUDIANTE" con las
+siguientes = propiedades
+    -carnet
+    -nombre
+    -apellido
+
+
+
+
+
     
 
 
